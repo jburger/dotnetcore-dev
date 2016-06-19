@@ -14,5 +14,6 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
+        email: $EMAIL
         repository: $USERNAME/$REPOSITORY
         message: adds nodejs 5.x
